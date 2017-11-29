@@ -1,1 +1,72 @@
-
+html, body{
+	font-size: 100%;
+	background:#ffffff;
+	font-family: 'roman', sans-serif;
+}
+div{
+	margin: 0px;
+}
+.header{
+	margin-left:-1em; 
+	margin-top:-1em;
+	background-color: #003D6A;
+	width:110%; 
+	height:100px;
+	color:#F00; 
+}
+.left-logo{
+	float: left;
+	margin-left: 2em; 
+}
+.Biglogo{
+	/*text-align:center;*/
+	margin-left: 300px;
+	/*margin-top: 0.1em;*/
+}
+.button-row{
+	margin-top: -1em;
+	padding: 0;
+	margin-left: 360px; 
+}
+.traditional{
+	padding: .5em 1em;
+	text-align:center;
+	display:inline-block;
+	width: 200px;
+	height:24px; 
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	background-color:#003D6A; 
+	background:-webkit-radial-gradient(#003D6A,rgba(0, 61, 106, 0.9));
+	cursor: pointer;
+	border-style: none solid none none;
+	border-width: 2px;
+	border-color: #5c5c8a;
+}
+.traditional :hover{
+	-webkit-background-color: black;
+	-webkit-transition:.5s all;
+}
+.interactive{ 
+	margin-left: -0.21em;
+	padding: .5em 1em;
+	text-align:center;
+	display:inline-block;
+	color: white;
+	width: 200px;
+	height:24px;
+	font-size: 20px;
+	font-weight: 600;
+	background:radial-gradient(#003D6A,rgba(0, 61, 106, 0.9));
+	cursor: pointer;
+}
+.interactive :hover{
+	-webkit-transition:.5s all;
+	-webkit-background:radial-gradient(#FF0000,rgba(0, 61, 106, 0.3));
+}
+.footer{
+	margin-top: 100px;
+	background-color: #003D6A;
+	height: 200px;
+}
