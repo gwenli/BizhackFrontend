@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>best buy work</title>
+	<link rel="stylesheet" href="css/product-style.css" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto:500,900,400italic,100,700italic,300,700,500italic,100italic,300italic,400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript">
+		var r = 1;
+		var a = 0;
+		var p = 0;
+		function switchFunction1() {
+			if (r==0){
+				document.getElementById("reviewid").style.display = 'block';
+				document.getElementById("articleid").style.display='none';
+				r=1;
+				a=0;
+				return;
+			} 
+		}
+		function switchFunction2() {
+			if (a==0){
+				document.getElementById("reviewid").style.display = 'none';
+				document.getElementById("articleid").style.display='block';
+				a=1;
+				r=0;
+			}
+			return;
+		}
+		function switchFunction3(){
+			if (p == 0){
+				document.getElementById("popupid").style.display='block';
+				p=1;
+			}
+			else{
+				document.getElementById("popupid").style.display='none';
+				p=0;
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div class="left-logo">
+			<img src="../bizhack/images/logo.jpg" height="100">
+		</div>
+		<div class="sign-in"></div>
+		<div class="login">
+
+		</div>
+	</div>
+	<div class="product-name">
+		<h1><span style="font-size: 24px;">Samsung 49" 4K Ultra HD LED Smart TV</span></h1>
+		<div onclick="switchFunction3()" class="pop-up-button">
+			Detail and Specs
+		</div>
+	</div>
+	<div class="container">
+		<div class="buy-container">
+			<div class="buy-window" >
+				<div class="buy-pic">
+					<img src="../bizhack/images/buy-img.jpg" width="450">
+				</div>
+				<div class="price-container">
+					<div class="price-cont1">
+						<div class="real-price">
+							<div style="float:left;margin-left:0.5em ;font-size: 17px;color: black">the price:</div>
+							$899.99
+						</div>
+						<div class="market-price">
+							<div style="float:left;margin-left:0.5em ;font-size: 17px;color: black;display: block;">lower than average price:</div>
+							<div style="margin-top:0.5em;display: block;">20.0%</div>
+							
+
+						</div>
+						
+					</div>
+					<div class="price-cont2">
+						<div class="online-tab">
+							<div style="float: left;border-right-style:solid;border-right-width: 1px;border-right-color: black;padding-right: 0.5em;font-size: 14px">
+								I want to buy it
+								<select style="padding: 5px; font-size: 14px; line-height: 0.3;border: 0;margin-left: 0.1em;">
+									<option value="volvo">Online</option>
+									<option value="saab">In Store</option>
+								</select>
+							</div>
+							<div style="float: left;padding-left: 0.5em;font-size: 14px;padding-top: 0.4em">
+								Destination: Vancouver (<a href="">change</a>)
+							</div>
+						</div>
+						<div class="continue">
+							Continue
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="../bizhack/visualize1.html"><div class="visualize">
+				Visualize
+			</div></a>
+		</div>
+		<div class="review-container">
+			<div class="menu">
+				<div onclick="switchFunction1()" class="comment-button">
+					Reviews
+				</div>
+				<div onclick="switchFunction2()" class="article-button">
+					Online Forums
+				</div>
+			</div>
+			<div id="reviewid" class="review" style="margin-left: -2.3em;">
+				<ul>
+					<li>
+						<div class="comment">
+							<div class="user-tab">
+								<h1 ><span style="font-family: Roboto;font-size: 17px;float: left;font-weight: 500"> Raymond</h1> 
+							</div>
+							<br>
+							<div ><span style="font-family: Roboto;font-size: 12px;float: left;"> 2017/4/1 </span></div>
+							<br>
+							<div class="detail-rank" style="display: block;">
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Overall:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Appearance:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Features:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Price:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<p style="margin-top: 1em;"><span style="font-family: roman;font-size: 15px;float: left;text-align: justify;">
+								This is a really good TV! I love its big screen, its impressive resolution ,its sharping performance, 
+								and its stability. What's the most awesome is that it has WIFI option, which means I can easily link it
+								to my TV box! It is real charming to watch sports on it !</span></p>
+							</div>
+						</li>
+						<li><div class="comment">
+							<div class="user-tab">
+								<h1 ><span style="font-family: Roboto;font-size: 17px;float: left;font-weight: 500"> Gwen</h1> 
+							</div>
+							<br>
+							<div ><span style="font-family: Roboto;font-size: 12px;float: left;"> 2017/2/11 </span></div>
+							<br>
+							<div class="detail-rank" style="display: block;">
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Overall:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Appearance:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Features:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Price:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<p style="margin-top: 1em;"><span style="font-family: roman;font-size: 15px;float: left;text-align: justify;">
+								Overall nice TV and it does have a sharp performance. However the sound makes it less perfect.
+							</span></p>
+
+						</div>
+					</li>
+					<li><div class="comment">
+						<div class="user-tab">
+							<h1 ><span style="font-family: Roboto;font-size: 17px;float: left;font-weight: 500"> Gary</h1> </div>
+							<br>
+							<div style="display: block;"><span style="font-family: Roboto;font-size: 12px;float: left;"> 2016/10/9 </span></div>
+							<br>
+							<div class="detail-rank" style="display: block;">
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Overall:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Appearance:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Features:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Price:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<p style="margin-top: 1em;"><span style="font-family: roman;font-size: 15px;float: left;text-align: justify;">
+								The TV is nice but I found a scretch on it possibily made during the delivery. The deliver should be more 
+								careful. Generally speaking the TV has an impressive performance. Without the scretch, I can conclude this 
+								is the TV that reaches to all of my expectation. </span></p>
+
+							</div>
+						</li>
+						<li><div class="comment">
+							<div class="user-tab">
+								<h1 ><span style="font-family: Roboto;font-size: 17px;float: left;font-weight: 500"> Carlisle</h1> 
+							</div>
+							<br>
+							<div ><span style="font-family: Roboto;font-size: 12px;float: left;"> 2015/2/14 </span></div>
+							<br>
+							<div class="detail-rank" style="display: block;">
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Overall:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Appearance:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Features:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+								<div style="font-size: 17px;color: #003D6A"><span style="float: left;"> Price:</span> 
+									<div class="star">
+										<ul class="star-com">
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+											<li><div style="float: right;"><img src="../bizhack/images/star.png" width="15" height="15"></div></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<p style="margin-top: 1em;"><span style="font-family: roman;font-size: 15px;float: left;text-align: justify;">
+								Bought this TV to watch movies with my family during the weekend. There is nothing about graphical performance that I can be picky with. High resolution, vivid color. If the deliver could be a little bit faster, everything would incredible.</span></p>
+
+							</div>
+						</li>
+
+					</ul>
+				</div>
+				<div id="articleid" class="article" style="margin-left: -2.3em;">
+					<ul class="article-list"> 
+						<li><div class="review-article">
+							<h1 style="font-size: 17px"><span > 4k.com</span></h1>
+							<h2 style="font-size: 15px"> "the Samsung KU7000 lacks wide color gamut." </h2>
+							<a href="http://4k.com/tv/samsung-ku7000-series-4k-uhd-smart-flat-led-tv-review-un49ku7000-un55ku7000/" >read more</a>
+						</div></li>
+						<li><div class="review-article">
+							<h1 style="font-size: 17px"><span > www.cnet.com</span></h1>
+							<h2 style="font-size: 15px">"Samsung TVs deserve credit" </h2>
+							<a href="https://www.cnet.com/products/samsung-un65ku7000/review/" >read more</a>
+						</div></li><li><div class="review-article">
+						<h1 style="font-size: 17px"><span > www.techradar.com</span></h1>
+						<h2 style="font-size: 15px"> "time to make the upgrade"</h2>
+						<a href="http://www.techradar.com/news/television/10-best-ultra-hd-4k-tvs-in-the-world-today-1198304" >read more</a>
+					</div></li><li><div class="review-article">
+					<h1 style="font-size: 17px"><span >ca.rtings.com</span></h1>
+					<h2 style="font-size: 15px">  "the new models are currently priced too high"</h2>
+					<a href="http://ca.rtings.com/tv/reviews/by-resolution/4k-ultra-hd-uhd/best" >read more</a>
+				</div></li><li><div class="review-article">
+				<h1 style="font-size: 17px"><span > digitaltrends</span></h1>
+				<h2 style="font-size: 15px"> "compete with the best TVs on the market"</h2>
+				<a href="http://www.digitaltrends.com/tv-reviews/samsung-unku7000-review/" >read more</a>
+			</div></li>
+		</ul>
+	</div>
+	<div class="write-ur-own">
+		Write my own review !
+	</div>
+</div>
+</div>
+<div id="popupid" class="pop-up-data">
+	<div style="border-bottom-style: solid;font-size: 24px;font-weight: 600; ">Video</div>
+	<ul class="section-list">
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 85px;">Screen Size</span>
+			<span style="color: #003D6A;">49 in</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 25px;">Display Technology</span>
+			<span style="color: #003D6A;">LED</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 160px;">Resolution</span>
+			<span style="color: #003D6A;">4K Ultra HD</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 30px;">Native Resolution (Pixels)</span>
+			<span style="color: #003D6A;">3840 x 2160</span>
+		</li>
+		<li class="section" ><span style="float: left;font-size: 19px;margin-right:10px ; ">Motion Enhancement Technology</span>
+			<span style="color: #003D6A;">Motion Rate 240</span>
+		</li>
+
+	</ul>
+	<br>
+	<div style="position:absolute; top:200px;width: 98%;border-bottom-style: solid;font-size: 24px;font-weight: 600; ">Audio</div>
+	<ul class="section-list">
+		<li class="section"><span style="float: left;font-size: 19px">Audio Enhancement</span>
+			<span style="color: #003D6A;">Dolby Digital Plus</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: -150px;">Auto Volume Correction</span>
+			<span style="color: #003D6A;">No</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 25px;">Speakers</span>
+			<span style="color: #003D6A;">Included</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: -55px;">Speaker Configuration</span>
+			<span style="color: #003D6A;">3840 x 2160</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: -10px;">Motion Enhancement Technology</span>
+			<span style="color: #003D6A;">2.1CH (Down Firing w/ Bass Reflex)</span>
+		</li>
+
+	</ul>
+	<br>
+	<div style="position:absolute; top:400px;width: 98%;border-bottom-style: solid;font-size: 24px;font-weight: 600; ">Inputs/Outputs</div>
+	<ul class="section-list">
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 170px;">HDMI Inputs</span>
+			<span style="color: #003D6A;">4</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 180px;">HDMI Version</span>
+			<span style="color: #003D6A;">2.0a</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 75px;">Component Video Inputs</span>
+			<span style="color: #003D6A;">No</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 105px;">A/V (Composite) Inputs</span>
+			<span style="color: #003D6A;">No</span>
+		</li>
+		<li class="section"><span style="float: left;font-size: 19px;margin-right: 95px;">Coaxial Cable Inputs</span>
+			<span  style="color: #003D6A;">1</span>
+		</li>
+
+	</ul>
+</div>
+<div class="footer">
+	<div style="display: inline-block;margin-right: 3em; padding-right:3em;border-right-style:solid;border-width: 1px;  ">
+		<div><span style="font-size: 20px;font-weight: 600;color: white";>Order support</span></div>
+		<select style="padding: 5px;width: 140px ;font-size: 14px; line-height: 0.3;border: 0;margin-left: 0.1em;margin-top: 0.5em;border-style: solid;border-color: #003D6A;font-color: #003D6A;text-align: center;">
+			<option value="volvo">Contact Us</option>
+			<option value="saab">Track an Order</option>
+			<option value="l">Returns and Exchange</option>
+		</select>
+	</div>
+	<div style="display: inline-block;margin-right: 3em; padding-right:3em;border-right-style:solid;border-width: 1px">
+		<div><span style="font-size: 20px;font-weight: 600;color: white";>Product support</span></div>
+		<select style="padding: 5px;width: 140px ;font-size: 14px; line-height: 0.3;border: 0;margin-left: 0.1em;border-style: solid;margin-top: 0.5em;border-color: #003D6A;font-color: #003D6A;text-align: center;">
+			<option value="volvo">Protection Plan</option>
+			<option value="saab">Price Protection</option>
+			<option value="l">Free Shipping</option>
+		</select>
+	</div>
+	<div style="display: inline-block;">
+		<div><span style="font-size: 20px;font-weight: 600;color: white";>Legal </span></div>
+		<select style="padding: 5px; width: 140px;font-size: 14px; line-height: 0.3;border: 0;margin-left: 0.1em;border-style: solid;margin-top: 0.5em;border-color: #003D6A;font-color: #003D6A;text-align: center;">
+			<option value="volvo">Terms and conditions</option>
+			<option value="saab">Conditions of Use</option>
+			<option value="l">Safe Shopping</option>
+			<option value="n">Privacy Policy</option>
+		</select>
+	</div>
+</div>
+</body>
+</html>
